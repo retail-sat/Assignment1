@@ -20,14 +20,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>assignment-releases</id>
       <name>assignment-releases</name>
-      <url>http://ec2-3-92-233-110.compute-1.amazonaws.com:8081/nexus/content/repositories/assignment-releases/</url>
+      <url>http://ip-172-31-86-126.ec2.internal:8081/nexus/content/repositories/assignment-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>assignment-snapshots</id>
       <name>assignment-snapshots</name>
-      <url>http://ec2-3-92-233-110.compute-1.amazonaws.com:8081/nexus/content/repositories/assignment-snapshots/</url>
+      <url>http://ip-172-31-86-126.ec2.internal:8081/nexus/content/repositories/assignment-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
